@@ -169,8 +169,6 @@ return {
         --
         -- But for many setups, the LSP (`tsserver`) will work just fine
         tsserver = {},
-        --
-
         lua_ls = {
           -- cmd = {...},
           -- filetypes = { ...},
@@ -217,5 +215,6 @@ return {
       }
     end,
   },
+  
 }
 -- vim: ts=2 sts=2 sw=2 et
