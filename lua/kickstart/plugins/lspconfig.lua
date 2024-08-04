@@ -158,7 +158,7 @@ return {
       local servers = {
 
         -- jsonls = {},
-        -- clangd = {},
+        clangd = {},
         -- gopls = {},
         -- pyright = {},
         -- rust_analyzer = {},
@@ -215,6 +215,5 @@ return {
       }
     end,
   },
-  
 }
 -- vim: ts=2 sts=2 sw=2 et
