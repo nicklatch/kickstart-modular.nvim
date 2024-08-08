@@ -9,8 +9,13 @@ return {
       userLanguages = {
         elixir = 'html',
         heex = 'html',
+        gleam = 'html',
       },
     },
   },
   require('lspconfig').zls.setup {},
+  require('lspconfig').gleam.setup {},
+  require('lspconfig').roc_ls.setup {},
+
+  vim.keymap.set('n', '\\', ':Oil --float <CR>', { desc = 'Oil reveal' }),
 }

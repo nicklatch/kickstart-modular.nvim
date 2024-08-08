@@ -7,8 +7,8 @@ return {
           configuration = {
             runtimes = {
               {
-                name = 'OpenJDK 21',
-                path = '/usr/lib/jvm/java-21-openjdk',
+                name = 'Temurin',
+                path = '/home/nicklatcham/.sdkman/candidates/java/22.0.2-tem',
                 default = true,
               },
             },

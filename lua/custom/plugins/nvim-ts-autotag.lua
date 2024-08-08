@@ -16,6 +16,7 @@ return {
         aliases = {
           ['heex'] = 'html',
           ['elixir'] = 'html',
+          ['gleam'] = 'html',
         },
         -- Also override individual filetype configs, these take priority.
         -- Empty by default, useful if one of the "opts" global settings
